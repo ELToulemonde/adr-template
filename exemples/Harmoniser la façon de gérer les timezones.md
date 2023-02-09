@@ -3,8 +3,7 @@
 
 # Contexte
 
-- Nous obtenons les données de séries temporelles en UTC sans fuseau horaire explicite dans l'objet et les sauvegardons
-  dans la base de données en UTC.
+Pour de nombreuses raisons (bonnes et mauvaises), nous n'avons pas de gestion harmonisée des timezones dans notre application :
 - Dans le frontend, le fuseau horaire dépend de l'utilisateur, mais pour le moment les utilisateurs sont tous situés en
   France.
 - Une partie des requêtes API sont réalisées avec un fuseau horaire explicite pour les dates, une partie sans
@@ -13,6 +12,9 @@
   est en UTC+01.
 - Il est possible de demander au Back end de générer des fichiers Excel avec les données, pour permettre à l'utilisateur
   de les télécharger.
+
+Quelques autres éléments de contextes :
+- Notre base de données contient des séries temporelles en UTC sans fuseau horaire explicite.
 - Le backend est organisé en architecture hexagonale avec une partie interface (les routes d'API), une partie domaine (
   le sens métier), une partie infrastructure (interaction avec la base de donnée).
 - La base de données contient un volume important (plusieurs centaines de Giga) de données historiques.
