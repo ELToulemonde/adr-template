@@ -79,7 +79,7 @@ Le diagramme de flux final une fois l'option mise en place sera le suivant :
 
 ```mermaid
 sequenceDiagram
-    Front ->> Back: Api call avec timezone
+    Front ->> Back: Api call sans timezone
     activate Back
     Back ->> DB: Sql request sans time zone
     DB -->> Back: Résultat sans time zone
