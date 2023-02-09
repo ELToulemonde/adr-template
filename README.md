@@ -1,31 +1,8 @@
-# ADR TEMPLATE
+# Contenu de ce repository
 
-- 📅 Date: 
-- 👷 Decision taken by:
+Ce repository donne deux modèles d'ADR :
 
-# Context
+- [Un en Français](template_fr.md)
+- [Un en Anglais](template_en.md)
 
-<--What is the context of your decision. Example: previous linked ADR, problem the team want to tackle, ...-->
-
-# Considered options 💡
-
-1. Option 1: 
-    - **More details:** 
-    - ✅ **Advantage:** 
-    - 🚫 **Disadvantage:** 
-2. Option 2: 
-    - **More details:** 
-    - ✅ **Advantage:** 
-    - 🚫 **Disadvantage:** 
-
- 
-# Advices 
-<--Any advices worth mentioning-->
-
-# Decision 🏆
-<--Which decision have been taken and what was the decider-->
-
-# Consequences 
-<-- Consequences of your decision -->
-
-♻️ Update: <date>.
+Et [des exemples](exemples) de décisions (elles n'ont pas de lien entre elles)
